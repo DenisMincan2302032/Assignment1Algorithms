@@ -15,8 +15,8 @@ namespace Lab_Week_1_Friday
         const int roomcols = 12;
         const char EmptyCell = '.';
         const char PlayerCell = 'P';
-        const char WaterCell = '2'; // User's custom char for Water
-        const char WoodCell = '1';  // User's custom char for Wood
+        const char WaterCell = '2'; 
+        const char WoodCell = '1'; 
         const char WallCell = '#';
         const char ExitCell = 'E';
         const char PathCell = '*';
