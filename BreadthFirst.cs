@@ -9,7 +9,7 @@ namespace Lab_Week_1_Friday
     {
         public bool FindPath(Grid grid, Coordinate start, Coordinate goal, ref LinkedList<Coordinate> path)
         {
-            // BFS uses a Queue (FIFO). Using C#'s built-in Queue<T>.
+            // BFS uses a Queue (FIFO). 
             var open = new Queue<Coordinate>();
             var closed = new HashSet<Coordinate>();
             var parent = new Dictionary<Coordinate, Coordinate>();

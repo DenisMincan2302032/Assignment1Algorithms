@@ -5,17 +5,13 @@ namespace Lab_Week_1_Friday
 {
     public class LinkedQueue<T>
     {
-        // Assuming LinkedList<T> is the fixed version from the previous answers.
+  =
         private LinkedList<T> _list = new LinkedList<T>();
 
         // Adds a new item at the back of the queue (FIFO)
         public void Enqueue(T item)
         {
      
-            // A truly efficient queue using a custom LinkedList requires a Head AND a Tail pointer
-            // in the LinkedList class.
-
-            // However, to fix the compilation error while retaining the current logic:
 
             if (_list.Count() == 0)
             {
@@ -30,7 +26,7 @@ namespace Lab_Week_1_Friday
             while (_list.Count() > 0)
             {
    
-                // Note: GetFront requires a 'ref' parameter, which is a bit unusual for a Peek/Pop pattern.
+                
                 _list.GetFront(ref frontItem);
                 temp.Add(frontItem);
                 _list.popFront();

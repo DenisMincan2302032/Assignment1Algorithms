@@ -15,7 +15,7 @@
         public static bool operator ==(Coordinate a, Coordinate b) => a.Row == b.Row && a.Col == b.Col;
         public static bool operator !=(Coordinate a, Coordinate b) => !(a == b);
 
-        // Required overrides for using in HashSets/Dictionaries
+      
         public override bool Equals(object obj) => obj is Coordinate other && this == other;
         public override int GetHashCode() => (Row, Col).GetHashCode();
     }

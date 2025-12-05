@@ -18,7 +18,7 @@ namespace Lab_Week_1_Friday
             }
         }
 
-        private Node Head;
+        private Node ?Head;
         private int count = 0;
 
         public int Count()

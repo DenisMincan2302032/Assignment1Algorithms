@@ -10,7 +10,7 @@ namespace Lab_Week_1_Friday
 
     internal class FridayLabGame
     {
-        // --- CONSTANTS ---
+        // Constants
         const int roomrows = 12;
         const int roomcols = 12;
         const char EmptyCell = '.';
@@ -28,7 +28,7 @@ namespace Lab_Week_1_Friday
         const int intMapWallValue = 1;
         const int intMapEmptyValue = 0;
 
-        // --- CONSTANTS for Map Saving/Loading Format ---
+        // --- Constants for Map Saving/Loading Format ---
         // Save format: 0=Wall, 1=Open Ground, 2=Wood, 3=Water
         const int MapValueOpenGround = 1;
         const int MapValueWood = 2;
